@@ -1,0 +1,15 @@
+1. Hamimid Nadim, numéro étudiant : 71806222, id gitlab : @hamimid
+Courtin Jules, numéro étudiant : 71800254, id gitlab : @courtin 
+
+2. Les options demandées (reprint,eval,simpl,vars et sign) ont été implémentés.
+Pour sign, le cas des if et while n'ont pas été traité par manque de temps. Seul les cas de Set et Read sur le block principal ont été géré.
+
+3. Pour compiler le projet : make
+Puis : ./run --[OPTION] <fichier.p> (exemple : ./run --reprint exemple/abs.p)
+Faire ./run pour afficher l'aide.
+
+4. Toutes les fonctions et les types ont été fait dans le fichier polish.ml. Nous n'avons pas su tout segmenter en plusieurs fichiers.
+
+5. Pour le premier rendu, Nadim a fait read_polish et Jules a fait eval_polish et print_polish.
+Pour le deuxième rendu, Nadim a fait simpl_polish et sign_polish et Jules vars_polish.
+
